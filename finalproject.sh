@@ -20,8 +20,8 @@ while true; do #This response loop repeats until you exit application
 			read response
 
 				if [ $response = "Y" -o $response = "y" ]; then
-					echo "Exiting..."
-					exit 0
+					echo "Exiting..." 
+					exit 0 #Terminates script successfully
 				elif [ $response = "N" -o $response = "n" ]; then
 					continue
 				else
